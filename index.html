@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <script src="https://dipped.dev/static/plugins/widget.js"></script>
+    <script
+      async
+      custom-element="amp-ad"
+      src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"
+    ></script>
   </head>
   <body>
     <section class="page">
@@ -30,10 +35,18 @@
           </h1>
           <div class="page__joininfo">
             <p class="page__jointext">
-              <span>IP:</span> Midni_bik.aternos.me:29981
+              <span class="spanname">IP:</span>
+              <span id="ip">Midni_bik.aternos.me:29981</span>
+              <button
+                class="button page__copy"
+                title="Натисніть, щоб скопіювати IP"
+              >
+                <i class="fa-solid fa-copy"></i>
+              </button>
             </p>
             <p class="page__jointext">
-              <span>Версія Minecraft (Java Edition):</span> 1.12.2
+              <span class="spanname">Версія Minecraft (Java Edition):</span>
+              1.12.2
             </p>
           </div>
         </div>
@@ -51,18 +64,31 @@
               <h2 class="title--section">Наші партнери:</h2>
               <ul class="page__list">
                 <li class="page__partner">
-                  <a class="page__partnername"
+                  <a
+                    class="page__partnername"
                     href="https://discord.gg/Gcf6x8s5"
                     class="page__partnerlink"
-                    ><img src="./img/partner1.webp" alt="Pixelated Лого"
-                  />Pixelated</a>
+                    ><img
+                      src="./img/partner1.webp"
+                      alt="Pixelated Лого"
+                    />Pixelated</a
+                  >
                 </li>
               </ul>
             </div>
-            <div class="page__footer page__block">
-              <p class="page__copyright">
-                2024 © Мідний Бичок | Всі права захищені
-              </p>
+            <div class="page__block page__ads">
+              <h2 class="title--section">Реклама:</h2>
+              <amp-ad
+                width="100vw"
+                height="320"
+                type="adsense"
+                data-ad-client="ca-pub-4892384326020946"
+                data-ad-slot="8053274825"
+                data-auto-format="rspv"
+                data-full-width=""
+              >
+                <div overflow=""></div>
+              </amp-ad>
             </div>
           </div>
           <div class="col">
@@ -77,6 +103,16 @@
             ></iframe>
           </div>
         </div>
+        <div class="page__footer page__block">
+          <p class="page__copyright">
+            2024 © Мідний Бичок | Всі права захищені<br />
+            Дякую, що відвідали наш вебсайт!
+            <i class="fa-solid fa-face-smile smile"></i><br />
+            Слава Україні! Героям слава!<br />
+            __________________________________<br/>
+            Створено програмістом 𝔃𝓪𝓱𝓪𝓻𝓴𝓸
+          </p>
+        </div>
       </div>
     </section>
 
@@ -84,5 +120,6 @@
       src="https://kit.fontawesome.com/8bb3800dbc.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

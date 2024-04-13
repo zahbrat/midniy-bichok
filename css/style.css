@@ -7,10 +7,15 @@
   font-family: "Bitter", sans-serif;
   font-weight: 400;
   color: #fff;
+  background: none;
 }
 
 body {
   background-color: #585858;
+}
+
+.button{
+  cursor: pointer;
 }
 
 .container {
@@ -29,6 +34,10 @@ body {
 
 .page {
   padding: 15px 20px;
+}
+
+.smile {
+  color: #ffff00;
 }
 
 .page__block {
@@ -58,7 +67,7 @@ body {
   font-size: 24px;
 }
 
-.page__jointext span {
+.page__jointext .spanname {
   font-weight: 500;
   background: #91663f;
 }
@@ -116,4 +125,8 @@ body {
   padding: 60px 25px;
   text-align: center;
   font-size: 24px;
+}
+
+.page__copy{
+  margin-left: 10px;
 }
