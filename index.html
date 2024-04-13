@@ -13,9 +13,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://dipped.dev/static/plugins/widget.js"></script>
   </head>
   <body>
-    <header class="page">
+    <section class="page">
       <div class="container">
         <div class="page__header page__block">
           <h1>
@@ -35,21 +37,52 @@
             </p>
           </div>
         </div>
-        <div class="page__desc page__block">
-          <p class="page__p">
-            <span>Мідний бичок</span> - Minecraft сервер, на основах кланів та їх війн. На сервері присутня зброя адекватна спільнота і адекватні правила. Наш сервер вітає любих гравців крім московитів! 
-          </p>
-        </div>
-        <div class="page__discord page__block">
-          <i class="fa-brands fa-discord"></i>
-          <a href="https://discord.gg/XgvkBWDs4Z" class="page__invite">Приєднатись до групи</a>
-        </div>
-        <div class="page__partners page__block">
-          <h2 class="title--section">Наші партнери:</h2>
+        <div class="row">
+          <div class="col">
+            <div class="page__desc page__block">
+              <p class="page__p">
+                <span>Мідний бичок</span> - Minecraft сервер, на основах кланів
+                та їх війн. На сервері присутня зброя адекватна спільнота і
+                адекватні правила. Наш сервер вітає любих гравців крім
+                московитів!
+              </p>
+            </div>
+            <div class="page__partners page__block">
+              <h2 class="title--section">Наші партнери:</h2>
+              <ul class="page__list">
+                <li class="page__partner">
+                  <a class="page__partnername"
+                    href="https://discord.gg/Gcf6x8s5"
+                    class="page__partnerlink"
+                    ><img src="./img/partner1.webp" alt="Pixelated Лого"
+                  />Pixelated</a>
+                </li>
+              </ul>
+            </div>
+            <div class="page__footer page__block">
+              <p class="page__copyright">
+                2024 © Мідний Бичок | Всі права захищені
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <iframe
+              src="https://discord.com/widget?id=1224396975630450778&theme=dark"
+              width="350"
+              height="500"
+              allowtransparency="true"
+              frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+              class="page__discord page__block"
+            ></iframe>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <script src="https://kit.fontawesome.com/8bb3800dbc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8bb3800dbc.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
