@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+body {
+  background-color: #585858;
+}
+
+.container {
+  width: 100%;
+  padding: 0 25px;
+}
+
+.title {
+  font-family: "Handjet" serif;
+  font-weight: 700;
+}
+
+.title--section {
+  text-align: center;
+}
+
+.page {
+  padding: 15px 20px;
+}
+
+.page__block {
+  background-color: #686868;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.page__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page__joininfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.page__jointext {
+  font-size: 24px;
+}
+
+.page__jointext span {
+  font-weight: 500;
+  background: #91663f;
+}
+
+.page__desc {
+  width: 50%;
+}
+
+.page__p {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.page__p span {
+  font-weight: 500;
+  background: #91663f;
+}
+
+.page__discord {
+  background: #7289da;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-discord {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.page__invite {
+  background-color: #91663f;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.page__partners {
+  width: 50%;
+  float: right;
+}
